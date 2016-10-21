@@ -1,4 +1,4 @@
-FROM rastasheep/ubuntu-sshd:14.04
+FROM ubuntu:14.04
 MAINTAINER aqssxlzc@gmail.com
 RUN apt update
 RUN apt install -y r-base
